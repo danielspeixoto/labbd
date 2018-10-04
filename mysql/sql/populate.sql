@@ -1,6 +1,6 @@
 USE `qa`;
 
-LOAD XML LOCAL INFILE
+LOAD XML CONCURRENT LOCAL INFILE
 '/home/daniel/ufba/rec/datasets/stackoverflow/ubuntu/Users.xml'
 into table qa.users ( Id,
   Reputation,
@@ -12,7 +12,7 @@ into table qa.users ( Id,
  SET last_access_date = @LastAccessDate,
   creation_date = @CreationDate;
 
-LOAD XML LOCAL INFILE
+LOAD XML CONCURRENT LOCAL INFILE
 '/home/daniel/ufba/rec/datasets/stackoverflow/ubuntu/Posts.xml'
 into table posts (Id, Title, Body, @AcceptedAnswerId, @AnswerCount,
  @CommentCount, @CreationDate, @LastActivityDate,
@@ -28,7 +28,7 @@ post_type_id = @PostTypeId,
 parent_id = @ParentId;
 
 
-LOAD XML LOCAL INFILE
+LOAD XML CONCURRENT LOCAL INFILE
 '/home/daniel/ufba/rec/datasets/stackoverflow/ubuntu/Links.xml'
 into table qa.links ( Id,
   @PostId,

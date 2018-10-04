@@ -70,7 +70,8 @@ def retrieve( path: str) -> Iterator:
 
 data_path = "/home/daniel/ufba/rec/datasets/stackoverflow/ubuntu"
 conn = psycopg2.connect("dbname='qa' user='postgres' host='localhost' password='admin'")
-conn.autocommit = True
+# conn.autocommit = True
+inserted = 0
 for key, attrs in t.items():
     content = retrieve(data_path + "/" + key)
     posts = xml_to_df(content, attrs)
@@ -93,6 +94,13 @@ for key, attrs in t.items():
             with conn.cursor() as cur:
                 try:
                     cur.execute(q, v)
+                    inserted = inserted + 1
+                    if inserted % 10000 == 0:
+                        conn.commit()
+                        print(str(inserted) + " rows inserted!")
                 except psycopg2.IntegrityError as err:
                     print(str(v) + " could not be inserted")
                     print(err)
+
+conn.commit()
+print(str(inserted) + " rows inserted!")
