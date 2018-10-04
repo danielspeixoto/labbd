@@ -68,7 +68,7 @@ def retrieve( path: str) -> Iterator:
 #     exit(1)
 # cur = conn.cursor()
 
-data_path = "/home/daniel/ufba/rec/datasets/stackoverflow/freelancing"
+data_path = "/home/daniel/ufba/rec/datasets/stackoverflow/ubuntu"
 conn = psycopg2.connect("dbname='qa' user='postgres' host='localhost' password='admin'")
 conn.autocommit = True
 for key, attrs in t.items():

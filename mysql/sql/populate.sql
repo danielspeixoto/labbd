@@ -1,7 +1,7 @@
 USE `qa`;
 
 LOAD XML LOCAL INFILE
-'/home/daniel/ufba/rec/datasets/stackoverflow/freelancing/Users.xml'
+'/home/daniel/ufba/rec/datasets/stackoverflow/ubuntu/Users.xml'
 into table qa.users ( Id,
   Reputation,
   UpVotes,
@@ -13,7 +13,7 @@ into table qa.users ( Id,
   creation_date = @CreationDate;
 
 LOAD XML LOCAL INFILE
-'/home/daniel/ufba/rec/datasets/stackoverflow/freelancing/Posts.xml'
+'/home/daniel/ufba/rec/datasets/stackoverflow/ubuntu/Posts.xml'
 into table posts (Id, Title, Body, @AcceptedAnswerId, @AnswerCount,
  @CommentCount, @CreationDate, @LastActivityDate,
  @OwnerUserId, Score, @ViewCount, Tags, @PostTypeId, @ParentId)
@@ -29,7 +29,7 @@ parent_id = @ParentId;
 
 
 LOAD XML LOCAL INFILE
-'/home/daniel/ufba/rec/datasets/stackoverflow/freelancing/Links.xml'
+'/home/daniel/ufba/rec/datasets/stackoverflow/ubuntu/Links.xml'
 into table qa.links ( Id,
   @PostId,
   @RelatedPostId,
