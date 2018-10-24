@@ -1,3 +1,4 @@
+DROP database qa
 CREATE DATABASE  IF NOT EXISTS `qa` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `qa`;
 -- MySQL dump 10.13  Distrib 5.7.23, for Linux (x86_64)

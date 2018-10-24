@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c14a164c-1fcf-463d-9193-8c11dde5187c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/mysql/sql/trigger.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/sql/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/sql/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/sql/indexes.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/sql/indexes.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/sql/view.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/sql/view.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgresql/scripts/create.sh" beforeDir="false" afterPath="$PROJECT_DIR$/postgresql/scripts/create.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgresql/sql/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/postgresql/sql/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/postgresql/sql/indexes.sql" beforeDir="false" afterPath="$PROJECT_DIR$/postgresql/sql/indexes.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgresql/sql/view.sql" beforeDir="false" afterPath="$PROJECT_DIR$/postgresql/sql/view.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +26,7 @@
           <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1222">
+                <state relative-caret-position="1128">
                   <caret line="97" column="36" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
                   <folding>
                     <element signature="e#0#43#0" expanded="true" />
@@ -29,11 +35,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="create.sql" pinned="false" current-in-tab="false">
+          <file leaf-file-name="create.sql" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysql/sql/create.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="767">
-                  <caret line="59" column="9" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="15" />
+                <state relative-caret-position="-950">
+                  <caret column="16" selection-start-column="16" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -41,17 +47,8 @@
           <file leaf-file-name="indexes.sql" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysql/sql/indexes.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="39">
-                  <caret line="3" selection-start-line="3" selection-end-line="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="13">
-                  <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+                <state relative-caret-position="72">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
                 </state>
               </provider>
             </entry>
@@ -59,17 +56,26 @@
           <file leaf-file-name="create.sh" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/postgresql/scripts/create.sh">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+                <state relative-caret-position="72">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="indexes.sql" pinned="false" current-in-tab="true">
+          <file leaf-file-name="trigger.sql" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mysql/sql/trigger.sql">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="36">
+                  <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="72" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="indexes.sql" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/postgresql/sql/indexes.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="65">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="60">
+                  <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
                 </state>
               </provider>
             </entry>
@@ -77,8 +83,17 @@
           <file leaf-file-name="view.sql" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/postgresql/sql/view.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="2" selection-start-column="2" selection-end-column="2" />
+                <state relative-caret-position="48">
+                  <caret line="1" column="188" selection-start-line="1" selection-start-column="188" selection-end-line="1" selection-end-column="188" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="create.sql" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/postgresql/sql/create.sql">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="130">
+                  <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -86,8 +101,8 @@
           <file leaf-file-name="view.sql" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysql/sql/view.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="13">
-                  <caret line="1" column="33" selection-end-line="1" selection-end-column="203" />
+                <state relative-caret-position="48">
+                  <caret line="1" column="194" selection-start-line="1" selection-start-column="194" selection-end-line="1" selection-end-column="194" />
                 </state>
               </provider>
             </entry>
@@ -95,19 +110,10 @@
           <file leaf-file-name="populate.sql" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysql/sql/populate.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
+                <state relative-caret-position="360">
                   <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
                   <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
                   <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="create.sh" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mysql/create.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="65">
-                  <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -119,8 +125,8 @@
           <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="13">
-                  <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+                <state relative-caret-position="43">
+                  <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
                   <folding>
                     <element signature="e#0#43#0" expanded="true" />
                   </folding>
@@ -146,19 +152,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/create.sql" />
-        <option value="$PROJECT_DIR$/postgresql/sql/create.sql" />
         <option value="$PROJECT_DIR$/mysql/sql/posts.sql" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/mysql/sql/others.sql" />
-        <option value="$PROJECT_DIR$/mysql/sql/create.sql" />
-        <option value="$PROJECT_DIR$/mysql/sql/view.sql" />
         <option value="$PROJECT_DIR$/mysql/create.sh" />
         <option value="$PROJECT_DIR$/mysql/sql/populate.sql" />
-        <option value="$PROJECT_DIR$/postgresql/scripts/create.sh" />
-        <option value="$PROJECT_DIR$/postgresql/sql/view.sql" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/mysql/sql/indexes.sql" />
         <option value="$PROJECT_DIR$/postgresql/sql/indexes.sql" />
+        <option value="$PROJECT_DIR$/mysql/sql/create.sql" />
+        <option value="$PROJECT_DIR$/postgresql/scripts/create.sh" />
+        <option value="$PROJECT_DIR$/mysql/sql/trigger.sql" />
+        <option value="$PROJECT_DIR$/postgresql/sql/create.sql" />
+        <option value="$PROJECT_DIR$/postgresql/sql/view.sql" />
+        <option value="$PROJECT_DIR$/mysql/sql/view.sql" />
       </list>
     </option>
   </component>
@@ -176,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,10 +227,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -294,7 +301,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="2" />
@@ -303,8 +309,8 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988831" weight="0.5208333" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.50111693" side_tool="true" visible="true" weight="0.5208333" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16753536" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.50111693" side_tool="true" visible="true" weight="0.7077922" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23529412" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -330,13 +336,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysql/create.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/postgresql/sql/indexes.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
@@ -608,86 +607,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/postgresql/sql/create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
+        <state relative-caret-position="12">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql/sql/others.sql" />
-    <entry file="file://$PROJECT_DIR$/mysql/sql/create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/sql/view.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="1" column="33" selection-end-line="1" selection-end-column="203" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysql/create.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
+        <state relative-caret-position="60">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql/sql/populate.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="360">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/postgresql/scripts/create.sh">
+    <entry file="file://$PROJECT_DIR$/mysql/sql/indexes.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postgresql/sql/view.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        <state relative-caret-position="72">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="1128">
+          <caret line="97" column="36" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/sql/indexes.sql">
+    <entry file="file://$PROJECT_DIR$/postgresql/scripts/create.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="3" selection-start-line="3" selection-end-line="5" />
+        <state relative-caret-position="72">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/sql/trigger.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/sql/view.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="1" column="194" selection-start-line="1" selection-start-column="194" selection-end-line="1" selection-end-column="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresql/sql/view.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="1" column="188" selection-start-line="1" selection-start-column="188" selection-end-line="1" selection-end-column="188" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/postgresql/sql/indexes.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="60">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresql/sql/create.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/sql/create.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-950">
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>

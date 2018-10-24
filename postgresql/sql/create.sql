@@ -49,8 +49,6 @@ CREATE TABLE "links" (
 
 
 ALTER TABLE "posts" ADD CONSTRAINT "posts_fk0" FOREIGN KEY ("owner_user_id") REFERENCES "users"("id");
-
-
 ALTER TABLE "links" ADD CONSTRAINT "links_fk0" FOREIGN KEY ("post_id") REFERENCES "posts"("id");
 ALTER TABLE "links" ADD CONSTRAINT "links_fk1" FOREIGN KEY ("related_post_id") REFERENCES "posts"("id");
 
